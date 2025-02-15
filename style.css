@@ -1,217 +1,216 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    max-width: 95%;
+  max-width: 95%;
 }
 
 .wrapper {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 16px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 /* header */
 header {
-    position: fixed;
-    width: 100%;
-    background-color: #fff;
-    z-index: 10;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
 }
 
 header h2 {
-    padding: 15px;
-    font-size: 30px;
-    font-weight: 500;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 header nav {
-    width: 100%;
-    background-color: black;
-    padding-bottom: 10px;
-    padding-left: 20px;
+  width: 100%;
+  background-color: black;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 
 header nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 40px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 40px;
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-
 
 /* article */
 .new-article {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 150px;
-    margin-bottom: 70px;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 150px;
+  margin-bottom: 70px;
+  text-align: center;
 }
 
-.new-article article{
-    width: 32%;
+.new-article article {
+  width: 32%;
 }
 
 article p {
-    font-weight: 700;
-    margin-top: 10px;
+  font-weight: 700;
+  margin-top: 10px;
 }
 
 article a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-top: 10px;
 }
 
 article a::after {
-    content: "";
-    display: block;
-    width: 80px;
-    background-color: black;
-    height: 1px;
-    margin: 0 auto;
+  content: "";
+  display: block;
+  width: 80px;
+  background-color: black;
+  height: 1px;
+  margin: 0 auto;
 }
 
 /* main section */
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 main {
-    flex: 0.66;
+  flex: 0.66;
 }
 
 main article {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 main .blog-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 main ul {
-    list-style:none;
-    display: flex;
-    padding: 10px 0 10px 0;
+  list-style: none;
+  display: flex;
+  padding: 10px 0 10px 0;
 }
 
 main ul li {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 main img {
-    width: 100%;
+  width: 100%;
 }
 
 main .article-intro {
-    text-align: center;
-    padding: 10px 85px 30px 40px;
+  text-align: center;
+  padding: 10px 85px 30px 40px;
 }
 
 /* aside section */
 aside {
-    flex: 0.33;
+  flex: 0.33;
 }
 
 aside .author {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .author h4 {
-    margin: 20px;
+  margin: 20px;
 }
 
 .author p {
-    max-width: 300px;
-    margin: 0 auto;
-    text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-aside .ranking h4{
-    text-align: center;
-    margin-bottom: 20px;
+aside .ranking h4 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .ranking-article a {
-    text-align: center;
-    text-decoration: none;
-    color:black;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .ranking-article a img {
-    padding: 5px;
+  padding: 5px;
 }
 
 .ranking-article p {
-    padding-right: 10px;
-    margin-bottom: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 /* archive */
 .archive {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .archive h4 {
-    margin-bottom: 30px;
-    text-align: center;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .archive ul {
-    list-style: none;
-    width: 80%;
-    margin: 0 auto;
-    border-bottom: 1px solid black;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
 }
 
 .archive ul li {
-    padding: 25px;
-    border-top: 1px solid black;
+  padding: 25px;
+  border-top: 1px solid black;
 }
 
 .archive ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /* メディアクエリ設定 */
 @media screen and (max-width: 768px) {
-    .new-article {
-        flex-direction: column;
-    }
+  .new-article {
+    flex-direction: column;
+  }
 
-    .new-article article {
-        width: 100%;
-        margin-bottom: 30px;
-    }
+  .new-article article {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column;
+  }
 
-    main article img{
-       width: 100%;
-       margin-left: 15px;
-    }
+  main article img {
+    width: 100%;
+    margin-left: 15px;
+  }
 
-    aside .ranking img {
-        width: 100%;
-        margin-left: 15px;
-    }
+  aside .ranking img {
+    width: 100%;
+    margin-left: 15px;
+  }
 }
